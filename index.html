@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Educatio</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="hero">
+        <header class="header contenedor">
+            <div class="logo">
+                <img src="img/logo.png">
+            </div>
+            <nav class="navegacion">
+                <button id="btn-estudiante">Estudiante </button>
+                <button id="btn-docente">Docente </button>
+                <button id="btn-administrador">Administrador </button>
+                <button id="btnAbrirModal">Iniciar Sesion</button>
+                        <div id="miModal" class="modal">
+                        <div class="modal-contenido" >
+                                     <!-- inicio login -->
+                                     
+                                     <div class="box">
+                                        <center>
+                                        <div class="form">
+                                            <h2>Iniciar Sesion</h2>   
+                                            <div class="inputBox">
+                                                <input type="text" id="email" required="required" />
+                                                <span>Ingresa tu correo</span>
+                                                <i> 
+
+                                                </i>
+                                        </div>
+                                        <div class="inputBox">
+                                                <input type="password" id="password" required="required" />
+                                                <span class="contraseña-input">Contraseña</span>
+                                                <i>
+                                                     </i>
+                                        </div>
+
+                                       
+<br>
+<br>
+
+                                        
+                                            <input id="boton" type="submit"  value="Iniciar" />
+                                            
+                                            <span class="cerrar-modal">Cerrar</span>
+                                         
+
+                                        </div>
+                                     <!-- Fin login -->
+                                     </center>
+                        </div>
+                        </div>
+
+
+            </nav>
+        </header>
+
+        <div class="contenido-hero contenedor" id="contenido_hero">
+            <h1 class="titulo">Bienvenido a EDUCATIO la mejor plataforma de mediación</h1>
+
+            <form action="/buscador" method="POST" class="formulario formulario-buscar" id="formulario" >
+                <input type="text" name="busqueda" id="busqueda" class="busqueda" placeholder="Matematicas, Ingles, Español, Calculo">
+                <input type="submit" value="Buscar" id="btn-submit">
+            </form>
+        </div>
+    </div> <!--.hero-->
+
+    <main class="contenido contenedor">
+        <section class="hacer">
+            <h2 class="tit_h2">LOS MAS CALIFICADOS DEL MES:</h2>
+            <div class="contenedor-cards">
+                    <div class="card">
+                        <img src="img/per_6.jpg" id="img1">
+                        <div id="info1" class="info">
+                            <p id="cat_est" class="categoria profesor">ESTUDIANTE</p>
+                            <p id="tit1" class="titulo">FERNANDO JOSE PAREDES SALAZAR</p>
+                            <p id="descri1" class="descripcion
+                            ">Universitario</p>
+
+                        </div>
+                    </div> <!--.card-->
+                    <div class="card">
+                        <img src="img/per_2.jpg" id="img2">
+                        <div id="info2" class="info">
+                            <p id="cat_pro1" class="categoria profesor">PROFESOR</p>
+                            <p id="tit2" class="titulo">JONATHAN YAIR PAREDES SALAZAR</p>
+                            <p id="descri2" class="descripcion">Experto en Calculo</p>
+                        </div>
+                    </div> <!--.card-->
+                    <div class="card">
+                        <img src="img/per_3.jpg" id="img3">
+                        <div id="info3" class="info">
+                            <p id="cat_pro2" class="categoria profesor">PROFESOR</p>
+                            <p id="tit3" class="titulo">FRANKLIN SPINIK OROZCO</p>
+                            <p id="descri3" class="descripcion">Experto en lenguas extranjeras</p>
+                        </div>
+                    </div> <!--.card-->
+                    <div class="card">
+                        <img src="img/per_1.jpg" id="img4">
+                        <div id="info4" class="info">
+                            <p id="cat_pro3" class="categoria profesor">PROFESORA</p>
+                            <p id="tit4" class="titulo">DIANA MARCELA OBANDO</p>
+                            <p id="descri4" class="descripcion">Experta en Lengua Castellana</p>
+                        </div>
+                    </div> <!--.card-->
+            </div> <!--.columnas4 cuadros-->
+        </section>
+
+
+        <section class="hacer">
+            <h2 id="conocemas" class="mi-viaje-plus">Conoce mas de EDUCATIO.com</h2>
+            <div class="contenedor-cards premium">
+                <div class="info">
+                    <h3 id="conoceh3">Somos un aplicativo el cual te ayuda encontrando profesores para que puedan reforzar los temas que aun no tienes claro</h3>
+                    <a href="#" class="boton btn-mi-viaje" id="btn_redireccionar">Descarga nuestra App </a>
+                </div>
+            </div> <!--.columnas4 cuadros-->
+        </section>
+
+        <section class="hospedaje">
+            <h2>Quienes somos:</h2>
+            <div class="contenedor-cards">
+                    <div class="card">
+                        <img src="img/vision.jpg">
+                        <div class="info">
+                            <p class="categoria hospedaje">Nuestra vision:</p>
+                            <p class="titulo">VISIÓN </p>
+                            <p class="descripcion">"Nuestra visión es proporcionar una plataforma de educación innovadora y accesible que empodere a las personas de todas las edades y orígenes, brindándoles la oportunidad de aprender de manera efectiva y alcanzar su máximo potencial. Nos esforzamos por fomentar un entorno de aprendizaje inclusivo y colaborativo, utilizando la tecnología para superar las barreras tradicionales y brindar oportunidades educativas equitativas en todo el mundo"</p>
+                        </div>
+                    </div> <!--.card-->
+                    <div class="card">
+                        <img src="img/mision.jpg">
+                        <div class="info">
+                            <p class="categoria hospedaje">Nuestra misión:</p>
+                            <p class="titulo">MISIÓN </p>
+                            <p class="descripcion">"Nuestra misión es desarrollar una aplicación de educación de vanguardia que ofrezca cursos de alta calidad y recursos educativos diversificados para usuarios de todas las edades. Buscamos transformar la forma en que las personas acceden y adquieren conocimiento, adaptándonos a los estilos de aprendizaje individuales y promoviendo la interacción y el compromiso activo. A través de nuestra plataforma, nos comprometemos a fomentar el amor por el aprendizaje, cultivar habilidades relevantes para el siglo XXI y empoderar a las personas para que se conviertan en aprendices de por vida"</p>
+                        </div>
+                    </div> 
+                    
+                    
+            </div> <!--.columnas4 cuadros-->
+        </section>
+
+        
+
+    </main>
+    
+   
+
+    <footer id="footer" class="footer">
+        <div class="contenedor">
+                <div class="nav-footer">
+                    <h3 class="titulo-footer">MiViaje.com</h3>
+                    <nav class="menu">
+                        <a href="#">Empleo</a>
+                        <a href="#">Prensa</a>
+                        <a href="#">Politicas</a>
+                        <a href="#">Ayuda</a>
+                    </nav>
+                </div>
+
+                <div class="nav-footer">
+                    <h3 class="titulo-footer">Descubre MiViaje.com</h3>
+                    <nav class="menu">
+                        <a href="#">Confianza y Seguridad</a>
+                        <a href="#">Crédito de Viajero</a>
+                        <a href="#">AirBNB Citizen</a>
+                        <a href="#">Viaje de negocios</a>
+                    </nav>
+                </div>
+
+                <div class="nav-footer">
+                    <h3 class="titulo-footer">Hospedaje</h3>
+                    <nav class="menu">
+                        <a href="#">Razones para Hospedar</a>
+                        <a href="#">Hospitalidad</a>
+                        <a href="#">Ser un anfitrión responsable</a>
+                        <a href="#">Centro de la Comunidad</a>
+                    </nav>
+                </div>
+
+                <div class="nav-footer">
+                    <nav class="sociales">
+                        <ul>
+                            <li><a href="http://facebook.com" target="_blank"><span>Facebook</span></a></li>
+                            <li><a href="http://twitter.com" target="_blank"><span>Twitter</span></a></li>
+                            <li><a href="http://instagram.com" target="_blank"><span>Instagram</span></a></li>
+                        </ul>
+                    </nav>
+                    <nav class="menu">
+                        <a href="#">Razones para Hospedar</a>
+                        <a href="#">Hospitalidad</a>
+                        <a href="#">Ser un anfitrión responsable</a>
+                        <a href="#">Centro de la Comunidad</a>
+                    </nav>
+                </div>
+        </div>
+    </footer>
+    <a href="#footer" class="btn-flotante">Idioma y Moneda</a>
+
+    <script src="js/dom.js"></script>
+
+</body>
+</html>
