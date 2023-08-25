@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Tienda</title>
+		<link rel="stylesheet" href="/carrito_compras/styles.css" />
+	</head>
+	<body>
+		<header>
+            <img src="../carrito_compras/Img/LogoPNG.png" width="130px">
+			<center><h1 class="intro" style="font-family:Georgia, 'Times New Roman', Times, serif; color: blue; font-size: 30px;"><img src="../carrito_compras/Img/cursosss2.gif" alt="" srcset="" style="width: 800px;"></h1> </center>
+
+			<div class="container-icon">
+
+                <div class="container-cart-icon">
+                    <svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="icon-cart"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+					/>
+				</svg>
+				<div class="count-products">
+					<span id="contador-productos">0</span>
+				</div>
+
+                </div>
+
+			
+
+				<div class="container-cart-products hidden-cart">
+                    <div class="row-product">
+                        <div class="cart-product">
+                            <div class="info-cart-product">
+                                <span class="cantidad-producto-carrito"></span>
+                                <p class="titulo-producto-carrito"></p>
+                                <span class="precio-producto-carrito"></span>
+                            </div>
+                            <!-- <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="icon-close"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M6 18L18 6M6 6l12 12"
+                                />
+                            </svg> -->
+							<button> <p><center>El carrito esta vacio</center></p> </button>
+							
+                        </div>
+
+                    </div>
+					
+                    <div class="cart-total">
+                        <h3>Total:</h3>
+                        <span class="total-pagar"></span>
+                    </div>
+				</div>
+			</div>
+		</header>
+
+        <div> 
+            <center>
+            <h2 style="color: blue;"><img src="../carrito_compras/Img/200.png" alt="" srcset=""></h2>
+        </center>
+        </div>
+        <div>
+            <center>
+           <h2 style="color: blue;">--------------------------------------------------------------------------------</h2> 
+        </center>
+        </div>
+        <!-- <div id="hero">
+            <div class="container">
+                <div class="row">
+                        <div class="six columns">
+                            <div class="contenido-hero">
+                                
+                                    <h2>Aprende algo nuevo</h2>
+                                    <p>Todos los cursos a $15</p>
+                                    <form action="#" id="busqueda" method="post" class="formulario">
+                                        <input class="u-full-width" type="text" placeholder="¿Que materia te gustaria reforzar?" id="buscador">
+                                        <input type="submit" id="submit-buscador" class="submit-buscador">
+                                    </form>
+                            </div>
+                        </div>
+                </div> 
+            </div>
+        </div> -->
+
+                             <!-- Inicio de las tarjetas de compras     -->
+
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						src="../carrito_compras/Img/matematicas.jpeg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Curso de matematicas</h2>
+					<p class="price">$80.000</p>
+					<button  class="btn-add-cart" style="background-color: rgb(30, 95, 179);">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="../carrito_compras/Img/ingles.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Curso de ingles</h2>
+					<p class="price">$100.000</p>
+					<button class="btn-add-cart"  style="background-color: rgb(30, 95, 179);" >Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="../carrito_compras/Img/software.jpeg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Curso de desarrollo de software (principante)</h2>
+					<p class="price">$150.000</p>
+					<button class="btn-add-cart" style="background-color: rgb(30, 95, 179);">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="../carrito_compras/Img/Ciencias_naturales.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Curso de ciencias naturales</h2>
+					<p class="price">$60.000</p>
+					<button class="btn-add-cart" style="background-color: rgb(30, 95, 179);">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="../carrito_compras/Img/filosofia.jpeg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Curso de filosofia  </h2>
+					<p class="price">$50.000</p>
+					<button class="btn-add-cart" style="background-color: rgb(30, 95, 179);">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="../carrito_compras/Img/sociales.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Curso de sociales  </h2>
+					<p class="price">$50.000</p>
+					<button class="btn-add-cart" style="background-color: rgb(30, 95, 179);">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="../carrito_compras/Img/Educación-Física.jpeg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Curso de profesor Educación Física </h2>
+					<p class="price">$100.000</p>
+					<button class="btn-add-cart" style="background-color: rgb(30, 95, 179);">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="../carrito_compras/Img/fisica.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Curso de Fisica</h2>
+					<p class="price">$130.000</p>
+					<button class="btn-add-cart" style="background-color: rgb(30, 95, 179);">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="../carrito_compras/Img/emprendimiento.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Curso de Emprendimiento (completo) </h2>
+					<p class="price">$180.000</p>
+					<button class="btn-add-cart" style="background-color: rgb(30, 95, 179);">Añadir al carrito</button>
+				</div>
+			</div>
+		</div>
+		<br>
+		<center><img src="../carrito_compras/Img/icons8-doble-abajo.gif" width="50px" height="100px"></center>
+
+		<div >
+
+			 <center>
+
+				 <button style="color: rgb(255, 255, 255); background-color: rgb(45, 111, 211); width: 800px; height: 70px;">
+						
+						<h2 style="font-size: 50px;"> Ver más</h2>
+
+				</button>
+
+			</center>
+
+		</div>
+
+        <script src="main.js"></script>
+	</body>
+</html>
